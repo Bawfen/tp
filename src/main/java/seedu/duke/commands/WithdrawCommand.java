@@ -54,7 +54,8 @@ public class WithdrawCommand extends Command {
     /**
      * Withdraw the currency into the existing account if found and print a success message.
      *
-     * @param ui The instance of the UI class.
+     * @param ui       The instance of the UI class.
+     * @param accounts The AccountList class that we will get the account from.
      */
     @Override
     public void execute (Ui ui, AccountList accounts) {
